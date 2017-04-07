@@ -1,6 +1,6 @@
 import { Observable, TestScheduler } from 'rxjs';
 import { observableToBeFn } from 'rxjs/testing/TestScheduler';
-import * as isEqual from 'lodash.isEqual';
+import * as _ from 'lodash';
 import { assert, expect } from 'chai';
 
 export type marbleSignature = (marbles: string, values?: any, error?: any) => Observable<any>;
@@ -44,7 +44,7 @@ export function ObservableMatcher(actual: Array<any>, expected: Array<any>): voi
   if (Array.isArray(actual) && Array.isArray(expected)) {
     actual = actual.map(deleteErrorNotificationStack);
     expected = expected.map(deleteErrorNotificationStack);
-    const passed = isEqual(actual, expected);
+    const passed = _.isEqual(actual, expected);
     if (passed) {
       return;
     }
