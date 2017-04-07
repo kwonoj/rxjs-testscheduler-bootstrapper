@@ -1,0 +1,36 @@
+{
+  "name": "rxjs-testscheduler-bootstrapper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
+  "engines": {
+    "npm": ">=3.0.0",
+    "node": ">=4.2.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwonoj/rxjs-testscheduler-bootstrapper.git"
+  },
+  "keywords": [
+    "Rx",
+    "RxJS",
+    "ReactiveX",
+    "ReactiveExtensions",
+    "Streams",
+    "Observables",
+    "Observable",
+    "Stream",
+    "ES6",
+    "ES2015"
+  ],
+  "author": "OJ Kwon <kwon.ohjoong@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwonoj/rxjs-testscheduler-bootstrapper/issues"
+  },
+  "homepage": "https://github.com/kwonoj/rxjs-testscheduler-bootstrapper#readme"
+}
