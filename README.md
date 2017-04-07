@@ -1,3 +1,7 @@
+[![Build Status](https://circleci.com/gh/kwonoj/rxjs-testscheduler-bootstrapper/tree/master.svg?style=shield&circle-token=:circle-token)](https://circleci.com/gh/kwonoj/rxjs-testscheduler-bootstrapper/tree/master)
+[![codecov](https://codecov.io/gh/kwonoj/rxjs-testscheduler-bootstrapper/branch/master/graph/badge.svg)](https://codecov.io/gh/kwonoj/rxjs-testscheduler-bootstrapper)
+[![npm](https://img.shields.io/npm/v/rxjs-testscheduler-bootstrapper.svg)](https://www.npmjs.com/package/rxjs-testscheduler-bootstrapper)
+
 # RxJS-TestScheduler-Bootstrapper
 
 RxJS v5 provides implementation to its [test scheduler](https://github.com/ReactiveX/rxjs/blob/master/src/testing/TestScheduler.ts) but there are some questions related how to set it up to actually create test using those, similar to test coverages in RxJS's repo. There are currently ongoing effort to revise those interfaces more friendly manner which'll remove churns eventually, meanwhile this package provides small utility function to setup test scheduler instances without knowning internals of how did fixture setup in source of library.
