@@ -1,7 +1,7 @@
 {
   "name": "rxjs-testscheduler-bootstrapper",
   "version": "0.0.1",
-  "description": "",
+  "description": "Provides utility function to creates RxJS v5 test scheduler",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
   "engines": {
@@ -99,7 +99,6 @@
     "cz-conventional-changelog": "^2.0.0",
     "husky": "^0.13.3",
     "lint-staged": "^3.4.0",
-    "lodash": "^4.16.2",
     "mocha": "^3.2.0",
     "npm-run-all": "^4.0.2",
     "nyc": "^10.2.0",
@@ -114,6 +113,8 @@
     "rxjs": "5.x"
   },
   "dependencies": {
-    "@kwonoj/rxjs-testscheduler-compat": "^1.0.1"
+    "chai": "^3.5.0",
+    "lodash": "^4.17.4",
+    "lodash.isequal": "^4.5.0"
   }
 }
