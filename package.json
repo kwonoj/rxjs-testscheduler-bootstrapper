@@ -1,6 +1,6 @@
 {
   "name": "rxjs-testscheduler-bootstrapper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Provides utility function to creates RxJS v5 test scheduler",
   "main": "./dist/src/index.js",
   "types": "./dist/src/index.d.ts",
